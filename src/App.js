@@ -6,9 +6,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src="https://cdn.notonthehighstreet.com/fs/e9/84/211d-6d4c-47dc-9ec9-3659d4d33cc5/normal_child-s-synthesizer.jpg" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Making a website for Lee!
         </p>
         <a
           className="App-link"
@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Click to go somewhere...
         </a>
       </header>
     </div>
