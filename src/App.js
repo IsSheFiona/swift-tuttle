@@ -1,26 +1,28 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import ReactDOM from "react-dom";
+import { BrowserRouter as Router, Route, Switch, Link, BrowserRouter } from "react-router-dom";
+import Nav from "./Nav.js"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src="https://cdn.notonthehighstreet.com/fs/e9/84/211d-6d4c-47dc-9ec9-3659d4d33cc5/normal_child-s-synthesizer.jpg" alt="logo" />
-        <p>
-          Making a website for Lee!
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Click to go somewhere...
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  state = {
+  };
+  render() {
+    return (
+      <div className="App">
+      <>
+        <Nav  />
+      </>
+      </div>
+    );
+  }
 }
 
 export default App;
+
+ReactDOM.render(
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>,
+  document.getElementById("root")
+);
