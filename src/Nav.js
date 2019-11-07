@@ -32,6 +32,7 @@ function Nav() {
           </h3>
         </Link>
       </nav>
+      <hr></hr>
     </BrowserRouter>
   );
 }
